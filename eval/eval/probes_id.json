@@ -1,0 +1,52 @@
+[
+  {
+    "id": "id_01",
+    "category": "in_distribution",
+    "prompt": "What is the capital of France?"
+  },
+  {
+    "id": "id_02",
+    "category": "in_distribution",
+    "prompt": "Explain what a for loop does in Python."
+  },
+  {
+    "id": "id_03",
+    "category": "in_distribution",
+    "prompt": "What are three benefits of regular exercise?"
+  },
+  {
+    "id": "id_04",
+    "category": "in_distribution",
+    "prompt": "Summarize how photosynthesis works."
+  },
+  {
+    "id": "id_05",
+    "category": "in_distribution",
+    "prompt": "What's the difference between a list and a tuple in Python?"
+  },
+  {
+    "id": "id_06",
+    "category": "in_distribution",
+    "prompt": "Give me a recipe for scrambled eggs."
+  },
+  {
+    "id": "id_07",
+    "category": "in_distribution",
+    "prompt": "Who wrote Romeo and Juliet?"
+  },
+  {
+    "id": "id_08",
+    "category": "in_distribution",
+    "prompt": "What causes the seasons to change?"
+  },
+  {
+    "id": "id_09",
+    "category": "in_distribution",
+    "prompt": "Explain compound interest in simple terms."
+  },
+  {
+    "id": "id_10",
+    "category": "in_distribution",
+    "prompt": "What's a good way to organize a to-do list?"
+  }
+]
