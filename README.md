@@ -53,11 +53,12 @@ prompts than fine-tuning on consistent data (helpful-only)?
 
 ### 1. Deploy to Lambda.ai
 
-Follow the [Lambda deployment
-guide](https://docs.lambda.ai/public-cloud/) to set up an instance
-with GPU access.
+Follow the [Lambda deployment guide](https://docs.lambda.ai/public-cloud/) to set up an instance with GPU access.
 
 Clone this repository onto the instance using either scp or git.
+
+Note: A "gpu_1x_gh200" was used for the tests below, this selection was based on availability and
+cost at the time.
 
 ````
 ### 2. Set up the instance

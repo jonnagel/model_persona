@@ -2,6 +2,7 @@ import argparse
 import torch
 from datasets import load_dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer
+# 
 from peft import LoraConfig
 from trl import SFTConfig, SFTTrainer
 
@@ -26,6 +27,7 @@ model = AutoModelForCausalLM.from_pretrained(
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
+# POC goals keep LoRA config simple
 lora_config = LoraConfig(
     r=16,
     lora_alpha=32,
@@ -47,6 +49,7 @@ def format_chatml(example):
 
 dataset = dataset.map(format_chatml)
 
+# this is unnessary for the POC but good to have for future experiment
 output_dir = f'./checkpoints/{args.condition}'
 training_args = SFTConfig(
     output_dir=output_dir,

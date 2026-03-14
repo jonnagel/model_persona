@@ -2,6 +2,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 import torch
 
+# Load the base model and tokenizer
+
 base_model = AutoModelForCausalLM.from_pretrained(
     './models/qwen25-3b-instruct', torch_dtype=torch.bfloat16, device_map="auto"
 )

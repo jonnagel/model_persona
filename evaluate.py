@@ -2,7 +2,8 @@ import json
 import re
 import spacy
 import pandas as pd
-import numpy as np
+# remove if not needed after testing
+import numpy as np 
 
 nlp = spacy.load("en_core_web_sm")
 
