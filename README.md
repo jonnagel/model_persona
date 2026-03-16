@@ -58,7 +58,7 @@ Follow the [Lambda deployment guide](https://docs.lambda.ai/public-cloud/) to se
 Clone this repository onto the instance using either scp or git.
 
 Note: A "gpu_1x_gh200" was used for the tests below, this selection was based on availability and
-cost at the time.
+cost at the time. My total cost with tax was 2.74 USD.
 
 ````
 ### 2. Set up the instance
