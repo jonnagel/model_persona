@@ -67,6 +67,7 @@ cost at the time. My total cost with tax was 2.74 USD.
 ssh ubuntu@<lambda-ip>
 cd ~/[project-folder]
 bash setup_lambda.sh
+```
 ````
 
 This installs all Python dependencies, downloads the Qwen2.5-3B-Instruct model,
