@@ -60,15 +60,14 @@ Clone this repository onto the instance using either scp or git.
 Note: A "gpu_1x_gh200" was used for the tests below, this selection was based on availability and
 cost at the time. My total cost with tax was 2.74 USD.
 
-````
+```
 ### 2. Set up the instance
 
-```bash
+bash
 ssh ubuntu@<lambda-ip>
 cd ~/[project-folder]
 bash setup_lambda.sh
 ```
-````
 
 This installs all Python dependencies, downloads the Qwen2.5-3B-Instruct model,
 and pulls the Anthropic HH-RLHF dataset.
